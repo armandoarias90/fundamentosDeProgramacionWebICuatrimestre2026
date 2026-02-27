@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <!-- ajusta el contenido de pantalla en celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret Garden</title>
+    <!-- carga del framework CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="img/secretGardenFavicon.png">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+    <section class="container-fluid fondoIndex">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="video/fondo.mp4" type="video/mp4">
+                <!-- Fallback imagen si no carga video -->
+                <img src="img/fondoVideo.jpg" alt="Video background">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="container textosIndex">
+            <!-- <h1 class="text-center py-3 titulo1">Secret Garden</h1> -->
+            <img src="img/secretGarden.png" alt="Logo Secret Garden" class="logoIndex py-3">
+            <p class="text-center sloganIndex">Descubre tu esencia oculta</p>
+        </div>
+        <div class="container my-5 botonesIndex">
+            <a href="login.html"><button class="text-center btn btn-light botonIndex">Entrar</button></a>
+        </div>
+    </section>
+
+    <!-- carga la interactividad JS en Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  </body>
+</html>

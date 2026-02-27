@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* Esto empuja el footer hacia abajo */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----- Estilos para index.html ----- */
+
+.fondoIndex .video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.fondoIndex .video-background video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fondoIndex .video-background .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(26, 26, 46, 1) 0%, rgba(225, 68, 120, 0.5) 100%);
+}
+
+.textosIndex {
+  max-width: 700px;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+
+.logoIndex {
+    width: 300px;
+    height: auto;
+    margin-top: 15%;
+}
+
+.sloganIndex {
+    font-size: 1.2rem;
+}
+
+.botonesIndex {
+  max-width: 700px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.botonIndex {
+    color: #fff;
+    background-color: #e14478;
+}
+
+.botonIndex:hover {
+    color: #fff;
+    background-color: #f26292;
+    transition: 0.7s;
+}
+
+/* ----- Estilos para login.html ----- */
+
+.fondoLogin {
+    background-image: url("../img/fondoLogin.jpg");
+    background-position: top;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background-color: #e14478;
+    background-blend-mode: luminosity;
+    height: 100vh;
+}
+
+.formularioLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.formatos1{
+    font-size: 30px;
+    color: #DD6CA9;
+    font-weight: bolder;
+}
+
+.tituloFormLogin {
+    color: #DD6CA9;
+}
+
+.tituloLabelLogin {
+    color: #DD6CA9;
+}
+
+.botonLogin {
+    background-color: #e14478;
+    border-color: #fff;
+}
+
+.botonLogin:hover {
+    background-color: #DD6CA9;
+    border-color: #fff;
+    transition: 0.7s;
+}
+
+/* ----- Estilos para landing.html ----- */
+
+.fondoLanding .video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.fondoLanding .video-background video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fondoLanding .video-background .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(26, 26, 46, 1) 0%, rgba(225, 68, 120, 0.5) 100%);
+}
+
+.fondoLanding {
+    flex: 1;
+}
+
+.textosLanding {
+  max-width: 700px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logoLanding {
+    width: 300px;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.sloganLanding {
+    font-size: 1.2rem;
+}
+
+.botonesLanding {
+  max-width: 700px;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.botonLanding {
+    color: #fff;
+    background-color: #e14478;
+    width: 250px;
+    border-color: #fff;
+}
+
+.botonLanding:hover {
+    color: #fff;
+    background-color: #f26292;
+    border-color: #fff;
+    transition: 0.7s;
+}
+
+.footerLanding {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* ----- Estilos para inicio.html ----- */
+
+header{
+    background-color: #212529;
+}
+
+.logoHeader{
+    width: 170px;
+    height: auto;
+    margin-top: -10px;
+    border-bottom: -10px;
+}
+
+.navbar-nav {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #DD6CA9;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+/* .nav-link:visited {
+    color: #DD6CA9;
+    font-weight: bold;
+} */
+
+.dropdown-menu{
+    background-color: #212529;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-weight: bold;
+    background-color: #212529;
+}
+
+.dropdown-item:hover {
+    color: #DD6CA9;
+    font-weight: bold;
+    transition: 0.7s;
+    background-color: #212529;
+}
+
+.navbar-collapse {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.inicioSeccion1 {
+    background-image: url("../img/fondoInicio1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* efecto1 transparencia */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    /* efecto2 modo de color */
+    /* background-color: #f2dd75; */
+    /* background-blend-mode: luminosity; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.inicioSeccion3 {
+    background-color: #212529;
+    color: #fff;
+}
+
+.inicioSeccion4 {
+    background-image: url("../img/fondoInicio2.jpg");
+    background-size: cover;
+    background-position: center;
+    /* efecto1 transparencia */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    /* efecto2 modo de color */
+    /* background-color: #f2dd75; */
+    /* background-blend-mode: luminosity; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+}
+
+.tituloBanner {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botonInicio {
+    background-color: #DD6CA9;
+    color: #fff;
+    
+}
+
+.botonInicio:hover {
+    border-color: #fff;
+    background-color: #e14478;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.tituloFondoBlanco {
+    color: #DD6CA9;
+    font-size: 40px;
+}
+
+.subtituloSeccion {
+    color: #DD6CA9;
+}
+
+.tituloFondoAzul {
+    color: #DD6CA9;
+    font-size: 40px;
+}
+
+.imagenInicioSeccion3 {
+    height: auto;
+    width: 500px;
+}
+
+.uil-check-circle {
+    font-size: 80px;
+    color: #DD6CA9;
+}
+
+.subtituloFondoBlanco {
+    color: #DD6CA9;
+    font-size: 25px;
+}
+
+.iconoWhatsappSeccion5 {
+    font-size: 80px;
+    color: #DD6CA9;
+}
+
+.uil-box {
+    font-size: 80px;
+    color: #DD6CA9;
+}
+
+.iconoRedesFooter {
+    font-size: 30px;
+}
+
+.linksInicio {
+    color: #DD6CA9;
+}
