@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+  flex: 1; /* Esto empuja el footer hacia abajo */
+}
+
+/* --- Header --- */
+
+.fondoHeader {
+    background-color: #e0c4ae;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tituloHeader {
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.botonVolver {
+    color: #e15e6e;
+    font-size: 50px;
+}
+
+.botonVolver:hover {
+    color: #fff;
+    font-size: 50px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.navbar-collapse {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.linkHeader {
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.linkHeader:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: #e0c4ae;
+}
+
+.linkHeaderVolver {
+    color: #fff;
+    font-weight: bold;
+}
+
+.linkHeaderVolver:hover {
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #e0c4ae;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-item {
+    background-color: #e0c4ae;
+}
+
+/* --- Reto 10 --- */
+
+.seccion1 {
+    background-color: #f4f0e5;
+}
+
+.contenedor {
+    background-color: #e1918e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.tituloReto {
+    color: #c3e6d4;
+    font-weight: bold;
+}
+
+.subtituloReto {
+    color: #c3e6d4;
+}
+
+.tituloMenu {
+    color: #fff;
+    font-weight: bold;
+}
+
+.parrafo1 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.colores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seleccionador {
+    color: #e15e6e;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonReto {
+    background-color: #e15e6e;
+    color: #fff;
+    font-weight: bold;
+}
+
+.botonReto:hover {
+    background-color: #fff;
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.reto9Seccion1 {
+    background-image: url("../imagenes/bannerLoading.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    background-color: #e15e6e;
+    background-blend-mode: luminosity;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.tituloBannerReto9 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Footer --- */
+
+footer {
+    background-color: #e0c4ae;
+}
+
+.contenidoFooter {
+    color: #e15e6e;
+    font-weight: bold;
+}

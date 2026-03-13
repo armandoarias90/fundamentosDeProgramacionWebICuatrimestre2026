@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+  flex: 1; /* Esto empuja el footer hacia abajo */
+}
+
+/* --- Header --- */
+
+.fondoHeader {
+    background-color: #e0c4ae;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tituloHeader {
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.botonVolver {
+    color: #e15e6e;
+    font-size: 50px;
+}
+
+.botonVolver:hover {
+    color: #fff;
+    font-size: 50px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.navbar-collapse {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.linkHeader {
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.linkHeader:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: #e0c4ae;
+}
+
+.linkHeaderVolver {
+    color: #fff;
+    font-weight: bold;
+}
+
+.linkHeaderVolver:hover {
+    color: #e15e6e;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #e0c4ae;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-item {
+    background-color: #e0c4ae;
+}
+
+/* --- Index --- */
+
+.indexSeccion1 {
+    background-color: #f4f0e5;
+    color: #e15e6e;
+}
+
+.tituloIndex {
+    font-weight: bold;
+    font-size: 30px;
+    color: #e1918e;
+}
+
+.galeriaRetos {
+    background-color: #fff;
+}
+
+.subtituloIndex {
+    font-size: 20px;
+    color: #e1918e;
+}
+
+.galeriaRetos p {
+    text-align: left;
+}
+
+.parrafoGaleria a {
+    text-decoration: none;
+    color: #e1918e;
+}
+
+.linkSubtituloIndex a {
+    color: #e1918e;
+}
+
+/* --- Footer --- */
+
+footer {
+    background-color: #e0c4ae;
+}
+
+.contenidoFooter {
+    color: #e15e6e;
+    font-weight: bold;
+}
