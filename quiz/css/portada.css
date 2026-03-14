@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+div {
+    margin-bottom: 0;
+}
+
+.portada-container {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background-image: url('../img/mansonBay3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.portada-titulo {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.portada-descripcion {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-weight: bold;
+}
+
+.portada-boton {
+    background-color: rgb(255, 107, 107);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.portada-boton:hover {
+    background-color: #ff5252;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+footer {
+    background-color: #3CBAFA;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
